@@ -1,11 +1,18 @@
-
-import './App.css';
+import Header from "./Components/Header";
+import Footer from "./Components/Footer";
+import Form from "./Components/Form";
+import Landingpage from "./Components/Landingpage";
+import Temple from "./Components/Temple";
 
 function App() {
   return (
-    <div className="App">
-      <h1>React App</h1>
-    </div>
+    <>
+      <Header/>
+      <Landingpage/>
+      <Form/>
+      <Temple/>
+      <Footer/>
+    </>
   );
 }
 
