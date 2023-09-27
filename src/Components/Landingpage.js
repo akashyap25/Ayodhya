@@ -104,11 +104,11 @@ function Carousel() {
     </div>
     <div className='p-8 text-center w-1/2 mx-auto text-lg font-medium'>
         <ol>
-            <li className=' p-4 shadow-md shadow-red-500'>
-                <p className='mt-4'> This will be delivered online to your home after offering Prasad. ( यह प्रसाद चढ़ाने के बाद आपके घर पर ऑनलाइन पहुंचा दिया जाएगा )</p>
+            <li className=' p-4 shadow-md shadow-orange-500'>
+                <p className='mt-4'> This will be deliveorange online to your home after offering Prasad. ( यह प्रसाद चढ़ाने के बाद आपके घर पर ऑनलाइन पहुंचा दिया जाएगा )</p>
             </li>
-            <li className='mt-4 p-4 shadow-md shadow-red-500'>
-                <p className='mt-4'>While offering your Prasad in the temple, you will be shown through video call and then your Prasad will be delivered to your home.( मंदिर में प्रसाद चढ़ाते समय आपको वीडियो कॉल के जरिए दर्शन कराया जाएगा और फिर आपका प्रसाद आपके घर पहुंचा दिया जाएगा. )</p>
+            <li className='mt-4 p-4 shadow-md shadow-orange-500'>
+                <p className='mt-4'>While offering your Prasad in the temple, you will be shown through video call and then your Prasad will be deliveorange to your home.( मंदिर में प्रसाद चढ़ाते समय आपको वीडियो कॉल के जरिए दर्शन कराया जाएगा और फिर आपका प्रसाद आपके घर पहुंचा दिया जाएगा. )</p>
             </li>
         </ol>
        

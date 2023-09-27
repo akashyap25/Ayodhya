@@ -39,7 +39,7 @@ const PrasadForm = () => {
   });
 
   return (
-    <div className=" max-w-2xl mx-auto mt-8 p-6 bg-white rounded-lg shadow-lg shadow-red-500">
+    <div className=" max-w-2xl mx-auto mt-8 p-6 bg-white rounded-lg shadow-lg shadow-orange-500">
       <h2 className="text-2xl font-semibold mb-4">Prasad Offering Form</h2>
       <form onSubmit={formik.handleSubmit}>
         <div className="mb-4">
@@ -56,7 +56,7 @@ const PrasadForm = () => {
             className="mt-1 p-2 w-full border rounded-lg"
           />
           {formik.touched.name && formik.errors.name && (
-            <div className="text-red-600 text-sm mt-1">{formik.errors.name}</div>
+            <div className="text-orange-600 text-sm mt-1">{formik.errors.name}</div>
           )}
         </div>
         <div className="mb-4">
@@ -73,7 +73,7 @@ const PrasadForm = () => {
             className="mt-1 p-2 w-full border rounded-lg"
           />
           {formik.touched.fatherName && formik.errors.fatherName && (
-            <div className="text-red-600 text-sm mt-1">{formik.errors.fatherName}</div>
+            <div className="text-orange-600 text-sm mt-1">{formik.errors.fatherName}</div>
           )}
         </div>
         <div className="mb-4">
@@ -90,7 +90,7 @@ const PrasadForm = () => {
             className="mt-1 p-2 w-full border rounded-lg"
           />
           {formik.touched.mobileNo && formik.errors.mobileNo && (
-            <div className="text-red-600 text-sm mt-1">{formik.errors.mobileNo}</div>
+            <div className="text-orange-600 text-sm mt-1">{formik.errors.mobileNo}</div>
           )}
         </div>
         <div className="mb-4">
@@ -107,7 +107,7 @@ const PrasadForm = () => {
             className="mt-1 p-2 w-full border rounded-lg"
           />
           {formik.touched.pinCode && formik.errors.pinCode && (
-            <div className="text-red-600 text-sm mt-1">{formik.errors.pinCode}</div>
+            <div className="text-orange-600 text-sm mt-1">{formik.errors.pinCode}</div>
           )}
         </div>
         <div className="mb-4">
@@ -123,7 +123,7 @@ const PrasadForm = () => {
             className="mt-1 p-2 w-full border rounded-lg"
           />
           {formik.touched.address && formik.errors.address && (
-            <div className="text-red-600 text-sm mt-1">{formik.errors.address}</div>
+            <div className="text-orange-600 text-sm mt-1">{formik.errors.address}</div>
           )}
         </div>
         <div className="mb-4">
@@ -145,7 +145,7 @@ const PrasadForm = () => {
             <option value="4">4</option>
           </select>
           {formik.touched.prasadQuantity && formik.errors.prasadQuantity && (
-            <div className="text-red-600 text-sm mt-1">{formik.errors.prasadQuantity}</div>
+            <div className="text-orange-600 text-sm mt-1">{formik.errors.prasadQuantity}</div>
           )}
         </div>
         <div className="mb-4">
@@ -167,12 +167,12 @@ const PrasadForm = () => {
             <option value="1111 Rs">1111 Rs</option>
           </select>
           {formik.touched.prasadAmount && formik.errors.prasadAmount && (
-            <div className="text-red-600 text-sm mt-1">{formik.errors.prasadAmount}</div>
+            <div className="text-orange-600 text-sm mt-1">{formik.errors.prasadAmount}</div>
           )}
         </div>
         <button
           type="submit"
-          className="bg-red-500 text-white py-2 px-4 rounded-lg hover:bg-red-600 transition duration-200"
+          className="bg-orange-500 text-white py-2 px-4 rounded-lg hover:bg-orange-600 transition duration-200"
         >
           Submit
         </button>

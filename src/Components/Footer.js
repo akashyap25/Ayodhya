@@ -3,18 +3,18 @@ import React from 'react'
 const Footer = () => {
   return (
     <>
-        <section class="bg-white dark:bg-red-500">
+        <section class="bg-white dark:bg-orange-500">
   <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
       <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-white-900 dark:text-white">Contact Us</h2>
       <p class="mb-8 lg:mb-16 font-light text-center text-white-500 dark:text-white-400 sm:text-xl">हमसे संपर्क करें </p>
       <form action="#" class="space-y-8">
           <div>
               <label for="email" class="block mb-2 text-sm font-medium text-white-900 dark:text-white-300">Your email</label>
-              <input type="email" id="email" class="shadow-sm bg-white-50 border border-white-300 text-white-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-white-700 dark:border-white-600 dark:placeholder-white-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" placeholder="name@flowbite.com" required/>
+              <input type="email" id="email" class="shadow-sm bg-white-50 border border-white-300 text-white-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-white-700 dark:border-white-600 dark:placeholder-white-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" placeholder="name@flowbite.com" requiorange/>
           </div>
           <div>
               <label for="subject" class="block mb-2 text-sm font-medium text-white-900 dark:text-white-300">Subject</label>
-              <input type="text" id="subject" class="block p-3 w-full text-sm text-white-900 bg-white-50 rounded-lg border border-white-300 shadow-sm focus:ring-blue-500 focus:border-blue-500 dark:bg-white-700 dark:border-white-600 dark:placeholder-white-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" placeholder="Let us know how we can help you" required/>
+              <input type="text" id="subject" class="block p-3 w-full text-sm text-white-900 bg-white-50 rounded-lg border border-white-300 shadow-sm focus:ring-blue-500 focus:border-blue-500 dark:bg-white-700 dark:border-white-600 dark:placeholder-white-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" placeholder="Let us know how we can help you" requiorange/>
           </div>
           <div class="sm:col-span-2">
               <label for="message" class="block mb-2 text-sm font-medium text-white-900 dark:text-white-400">Your message</label>
