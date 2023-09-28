@@ -1,6 +1,7 @@
 import React from 'react';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
+import axios from 'axios';
 
 const PrasadForm = () => {
   const initialValues = {
@@ -27,9 +28,15 @@ const PrasadForm = () => {
     prasadAmount: Yup.string().required('Prasad amount is required'),
   });
 
-  const handleSubmit = (values) => {
+  const handleSubmit = async (values) => {
     // Handle form submission here
-    console.log(values);
+     try {
+      const response = await axios.post('http://localhost:5000/prasadForm', values);
+      // console.log(response.data);
+     } catch (error) {
+      console.error(error);
+     }
+    // console.log(values);
   };
 
   const formik = useFormik({
