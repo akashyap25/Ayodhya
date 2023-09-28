@@ -2,6 +2,7 @@ import React from 'react';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import axios from 'axios';
+import Swal from 'sweetalert2';
 
 const PrasadForm = () => {
   const initialValues = {
@@ -28,11 +29,17 @@ const PrasadForm = () => {
     prasadAmount: Yup.string().required('Prasad amount is required'),
   });
 
-  const handleSubmit = async (values) => {
+  const handleSubmit = async (values, { resetForm }) => {
     // Handle form submission here
      try {
       const response = await axios.post('http://localhost:5000/prasadForm', values);
       // console.log(response.data);
+      Swal.fire({
+        icon: 'success',
+        title: 'Form Submitted',
+        text: 'You have successfully submitted the form.',
+      });
+      resetForm();
      } catch (error) {
       console.error(error);
      }

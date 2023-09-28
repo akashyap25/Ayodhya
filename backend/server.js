@@ -3,7 +3,7 @@ const connectDB = require("./db/connect");
 const dotenv = require("dotenv");
 const PrasadModel = require ('./db/Model');
 const cors = require('cors');
-const port = 5000 || process.env.PORT ;
+const port =  process.env.PORT || 5000  ;
 const path = require('path'); 
 
 
@@ -42,6 +42,6 @@ app.get('*', (req, res) => {
 
 
 
- app.listen(5000, () => {
+ app.listen(port, () => {
     // console.log(`Server is running on port ${port}.`);
 });
