@@ -102,12 +102,12 @@ function Carousel() {
         <h1 className=' font-semibold'>Prasad online in Ayodhya (अयोध्या में प्रसाद ऑनलाइन चढ़ाएं)  </h1>
         <h1 className='text-orange-400 font-extrabold mt-4'>🚩जयश्री राम🚩</h1>
     </div>
-    <div className='p-8 text-center w-1/2 mx-auto text-lg font-medium'>
+    <div className=' p-2 lg:p-8 text-center w-1/2 mx-auto text-lg font-medium'>
         <ol>
-            <li className=' p-4 shadow-md shadow-orange-500'>
+            <li className=' lg:p-4 shadow-md shadow-orange-500'>
                 <p className='mt-4'> This will be deliveorange online to your home after offering Prasad. ( यह प्रसाद चढ़ाने के बाद आपके घर पर ऑनलाइन पहुंचा दिया जाएगा )</p>
             </li>
-            <li className='mt-4 p-4 shadow-md shadow-orange-500'>
+            <li className='mt-4 lg:p-4 shadow-md shadow-orange-500'>
                 <p className='mt-4'>While offering your Prasad in the temple, you will be shown through video call and then your Prasad will be deliveorange to your home.( मंदिर में प्रसाद चढ़ाते समय आपको वीडियो कॉल के जरिए दर्शन कराया जाएगा और फिर आपका प्रसाद आपके घर पहुंचा दिया जाएगा. )</p>
             </li>
         </ol>
